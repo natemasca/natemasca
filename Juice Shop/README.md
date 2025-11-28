@@ -24,10 +24,10 @@ This project is an ethical web application vulnerability assessment performed on
 | Sensitive Data Exposure | 🟠 Medium | API enumeration |
 | Missing Security Headers | 🟢 Low | Passive scan (ZAP) |
 
-Full vulnerability details and remediation guidance are included in `Report.pdf`.
+Full vulnerability details and remediation guidance are included in `Report.txt`.
 
 ## 📄 Report
-🔗 **Full Professional Report:** `Report.pdf` (included in repository)
+🔗 **Full Professional Report:** `Report.txt` (included in repository)
 
 ## 🧑‍💻 Ethical Notice
 This project was conducted in a controlled environment using **legal and intentional vulnerable targets only**. No unauthorized security testing was performed. This repository is for educational and portfolio purposes.
