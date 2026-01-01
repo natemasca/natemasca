@@ -12,7 +12,7 @@ This project is an ethical web application vulnerability assessment performed on
 ## 🧰 Tools Used
 | Tool | Purpose |
 |------|---------|
-| **OWASP ZAP** | Active/Passive scanning, fuzzing |
+| **OWASP ZAP / Burp Suite** | Active/Passive scanning, fuzzing |
 | **Browser DevTools** | Manual testing, API inspection |
 | **Docker / Local Instance** | Safe testing environment |
 
