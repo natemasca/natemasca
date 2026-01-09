@@ -36,13 +36,14 @@ Built with Python, scikit-learn, and Flask.
 
 ```bash
 python3 -m pip install flask scikit-learn joblib
+```
+### 2️⃣ Run the application
 
----
+```bash
+python3 app.py
+```
+### 3️⃣ Open in your browser
 
-## 📚 Dataset Reference
-
-This project uses the following dataset:
-
-> **Naser Abdullah Alam.** *Phishing Email Dataset.* Kaggle, 2024.  
-> DOI: 10.34740/KAGGLE/DS/5074342  
-> https://www.kaggle.com/ds/5074342
+```bash
+[python3 app.py](http://127.0.0.1:5000)
+```
