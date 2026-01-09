@@ -30,7 +30,7 @@ Built with Python, scikit-learn, and Flask.
 
 ## 🏗️ Project Structure
 
-Phishing Email Detector/
+ Phishing Email Detector/
 │
 ├── app.py
 ├── phishing_model.joblib
