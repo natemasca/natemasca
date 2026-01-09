@@ -19,7 +19,7 @@ HTML / CSS
 joblib
 
     
-⚡ Quick Start
+⚡ Quick Start:
 1️⃣ Install dependencies
 python3 -m pip install flask scikit-learn joblib
 2️⃣ Run the application
@@ -28,7 +28,7 @@ python3 app.py
 http://127.0.0.1:5000
 Paste any email content into the text box and click Analyze Email.
 
-🧪 How It Works
+🧪 How It Works:
 Email text is converted to TF-IDF features
 A Logistic Regression model predicts phishing probability
 The app displays:
@@ -36,7 +36,7 @@ Final decision (Phishing / Legitimate)
 Confidence score
 Suspicious words responsible for the decision
 
-📌 Example Use Cases
+📌 Example Use Cases:
 Cybersecurity training
 Email security analysis
 Machine learning portfolio project
