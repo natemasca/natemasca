@@ -29,7 +29,6 @@ Built with Python, scikit-learn, and Flask.
 ---
 
 
----
 
 ## ⚡ Quick Start
 
