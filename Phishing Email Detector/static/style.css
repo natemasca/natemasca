@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #e5e7eb;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #020617;
+    width: 650px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    border: none;
+    padding: 14px;
+    font-size: 14px;
+    background: #020617;
+    color: #e5e7eb;
+    outline: none;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.result.phishing {
+    border: 2px solid #dc2626;
+    background: rgba(220,38,38,0.15);
+}
+
+.result.legit {
+    border: 2px solid #16a34a;
+    background: rgba(22,163,74,0.15);
+}
+
+.confidence {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background: #dc2626;
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin: 5px;
+    font-size: 13px;
+}

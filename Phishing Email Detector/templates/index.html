@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>🛡️ Phishing Email Detector</h1>
+
+        <form method="POST">
+            <textarea name="email" placeholder="Paste the email text here..." required></textarea>
+            <button type="submit">Analyze Email</button>
+        </form>
+
+        {% if result %}
+        <div class="result {{ 'phishing' if result.label == 'Phishing' else 'legit' }}">
+            <h2>
+                {% if result.label == 'Phishing' %}
+                    🚨 PHISHING DETECTED
+                {% else %}
+                    ✅ LEGITIMATE EMAIL
+                {% endif %}
+            </h2>
+
+            <p class="confidence">Confidence: {{ result.confidence }}</p>
+
+            {% if result.words %}
+                <h3>Suspicious Indicators</h3>
+                <div class="tags">
+                    {% for word in result.words %}
+                        <span class="tag">{{ word }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
