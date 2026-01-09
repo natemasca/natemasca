@@ -30,3 +30,16 @@ Built with Python, scikit-learn, and Flask.
 
 ## 🏗️ Project Structure
 
+Phishing Email Detector/
+│
+├── app.py
+├── phishing_model.joblib
+├── tfidf_vectorizer.joblib
+├── feature_names.joblib
+│
+├── templates/
+│ └── index.html
+│
+└── static/
+├── style.css
+└── favicon.ico
