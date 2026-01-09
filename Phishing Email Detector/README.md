@@ -37,4 +37,12 @@ Built with Python, scikit-learn, and Flask.
 ```bash
 python3 -m pip install flask scikit-learn joblib
 
+---
 
+## 📚 Dataset Reference
+
+This project uses the following dataset:
+
+> **Naser Abdullah Alam.** *Phishing Email Dataset.* Kaggle, 2024.  
+> DOI: 10.34740/KAGGLE/DS/5074342  
+> https://www.kaggle.com/ds/5074342
